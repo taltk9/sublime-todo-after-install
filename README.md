@@ -10,12 +10,12 @@ sudo apt-get install -y sublime-text-installer
 
 *	[Install Package Control](https://sublime.wbond.net/installation#st3)
 *	Install JSHint:
-	
+
 ```Shell
 sudo npm install -g jshint
 ```
 
-*	Plugins:
+*	Install plugins:
 	* `BracketHighlighter` - provides bracket highlighting for all sorts of brackets;
 	* `Colorpicker` - change colors with a colorpicker on the fly;
 	* `Emmet` - build HTML on the fly easily and quickly;
@@ -33,6 +33,7 @@ sudo npm install -g jshint
 	* `Phpcs` - for php developers;
 	* `JquerySnippetsPack` - for jQuery developers;
 
+*	Or [clone sublime-settings files](https://github.com/taltk9/sublime-dotfiles) and use Package Control Upgrade.
 
 #Fonts
 
