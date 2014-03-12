@@ -11,8 +11,17 @@ sudo apt-get install -y sublime-text-installer
 *	[Install Package Control](https://sublime.wbond.net/installation#st3)
 *	Install JSHint:
 
-```Shell
+```shell
 sudo npm install -g jshint
+```
+
+*	Install Zeal (Ubuntu) - [Documentation](http://zealdocs.org/):
+
+```shell
+sudo add-apt-repository ppa:ubuntu-sdk-team/ppa -y
+sudo add-apt-repository ppa:jerzy-kozera/zeal-ppa -y
+sudo apt-get update
+sudo apt-get install zeal -y
 ```
 
 *	Install plugins:
@@ -32,6 +41,8 @@ sudo npm install -g jshint
 	* `LoremText` - lorem text for lack of creativity;
 	* `Phpcs` - for php developers;
 	* `JquerySnippetsPack` - for jQuery developers;
+	* `MarkdownPreview` - markdown files preview;
+	* `Zeal` - offline documentation;
 
 *	Or [clone sublime-settings files](https://github.com/taltk9/sublime-dotfiles) and use Package Control Upgrade.
 
